@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.comcast.crm.listenerutility.ListenerImplementationClass"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="TestRunner-chrome(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="practice.test.InvoiceTest">
+        <methods>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="activateSim"/>
+        </methods>
+      </class> <!-- practice.test.InvoiceTest -->
+    </classes>
+  </test> <!-- TestRunner-chrome(failed) -->
+  <test thread-count="2" parallel="tests" name="TestRunner-Edge(failed)">
+    <parameter name="Browser" value="edge"/>
+    <classes>
+      <class name="practice.test.InvoiceTest">
+        <methods>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="activateSim"/>
+        </methods>
+      </class> <!-- practice.test.InvoiceTest -->
+    </classes>
+  </test> <!-- TestRunner-Edge(failed) -->
+</suite> <!-- Failed suite [Suite] -->
