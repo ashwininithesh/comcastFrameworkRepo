@@ -33,6 +33,8 @@ public class HomePage
 	@FindBy(linkText = "Sign Out")
 	private WebElement signoutLink;
 	
+	@FindBy(linkText = "Products")
+	private WebElement productLink;
 	
 
 	
