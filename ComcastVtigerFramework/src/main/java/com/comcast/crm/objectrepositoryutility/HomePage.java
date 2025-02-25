@@ -45,7 +45,16 @@ public class HomePage
 	public WebElement getContactLink() {
 		return contactLink;
 	}
+
 	
+	public WebElement getProductLink() {
+		return productLink;
+	}
+
+	public void setProductLink(WebElement productLink) {
+		this.productLink = productLink;
+	}
+
 	public void navigateToCampaignPage(WebDriver driver)
 	{
 		Actions act=new Actions(driver);
