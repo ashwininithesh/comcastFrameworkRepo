@@ -30,6 +30,23 @@ public class CreateNewOrganizationPage
 	@FindBy(name="phone")
 	private WebElement phoneEdt;
 	
+	@FindBy(name="website")
+	private WebElement websiteEdt;
+	
+	
+	
+	public WebElement getIndustryDd() {
+		return industryDd;
+	}
+
+	public WebElement getTypeDd() {
+		return typeDd;
+	}
+
+	public WebElement getWebsiteEdt() {
+		return websiteEdt;
+	}
+
 	public WebElement getOrgNameEdt() {
 		return orgNameEdt;
 	}

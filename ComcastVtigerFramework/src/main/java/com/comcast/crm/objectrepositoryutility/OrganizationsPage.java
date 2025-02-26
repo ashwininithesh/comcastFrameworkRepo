@@ -16,6 +16,26 @@ public class OrganizationsPage {
 	@FindBy(xpath="//img[@title='Create Organization...']")
 	private WebElement createNewOrgBtn;
 
+	@FindBy(name="submit")
+	private WebElement seacrchbtnInOrg;
+	
+	@FindBy(name="search_text")
+	private WebElement search_textInOrg;
+	
+	
+	
+	public WebElement getSearch_textInOrg() {
+		return search_textInOrg;
+	}
+
+
+
+	public WebElement getSeacrchbtnInOrg() {
+		return seacrchbtnInOrg;
+	}
+
+
+
 	public WebElement getCreateNewOrgBtn() {
 		return createNewOrgBtn;
 	}
