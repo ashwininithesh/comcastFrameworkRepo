@@ -21,6 +21,7 @@ public class ContactModule extends BaseClass
 		String lastname=elib.getDataFromExcel("contact",1,2) + jlib.getRandomNumber();
 
 		//step2 : navigate to Contact module
+		    // ranjini
 		
 		HomePage op=new HomePage(driver);
 		op.getContactLink().click();
