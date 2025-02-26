@@ -15,10 +15,19 @@ public class OrganizationsPage {
 	
 	@FindBy(xpath="//img[@title='Create Organization...']")
 	private WebElement createNewOrgBtn;
+	
+	@FindBy(name="submit")
+	private WebElement searchNowBtn;
 
 	public WebElement getCreateNewOrgBtn() {
 		return createNewOrgBtn;
 	}
+
+	public WebElement getSearchNowBtn() {
+		return searchNowBtn;
+	}
+	
+	
 
 }
 	
