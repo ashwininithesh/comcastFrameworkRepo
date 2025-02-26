@@ -10,6 +10,9 @@ public class ProductsPage
 	
 	@FindBy(name="search_text")
 	private WebElement searchtxtedt;
+	
+	@FindBy(name="seach")
+	private WebElement ele2;
 
 	public WebElement getCreateProductImgBtn() {
 		return createProductImgBtn;
