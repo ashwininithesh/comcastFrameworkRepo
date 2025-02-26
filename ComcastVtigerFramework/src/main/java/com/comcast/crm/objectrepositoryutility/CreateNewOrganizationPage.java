@@ -38,6 +38,7 @@ public class CreateNewOrganizationPage
 	public WebElement getIndustryDd() {
 		return industryDd;
 	}
+	//hi
 
 	public WebElement getTypeDd() {
 		return typeDd;
