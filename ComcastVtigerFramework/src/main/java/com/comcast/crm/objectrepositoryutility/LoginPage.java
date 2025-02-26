@@ -23,6 +23,7 @@ public class LoginPage extends WebDriverUtility
 	}
 	
 	//Rule2: object creation
+	///ranjini
 	
 	
 	@FindBy(name="user_name")
