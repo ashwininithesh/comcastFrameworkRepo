@@ -24,6 +24,12 @@ public class OrganizationsPage {
 	
 	
 	
+	public WebElement getSearch_textInOrg() {
+		return search_textInOrg;
+	}
+
+
+
 	public WebElement getSeacrchbtnInOrg() {
 		return seacrchbtnInOrg;
 	}
