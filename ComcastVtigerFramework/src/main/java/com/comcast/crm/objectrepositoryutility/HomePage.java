@@ -36,8 +36,50 @@ public class HomePage
 	@FindBy(linkText = "Products")
 	private WebElement productLink;
 	
-
+	@FindBy(linkText = "Opportunities")
+	private WebElement opportunitiesLink;
 	
+	@FindBy(linkText = "Leads")
+	private WebElement LeadsLink;
+	
+	@FindBy(linkText = "Calendar")
+	private WebElement CalenderLink;
+	
+     
+	
+
+	public WebElement getCalenderLink() {
+		return CalenderLink;
+	}
+
+	public WebElement getLeadsLink() {
+		return LeadsLink;
+	}
+
+	public WebElement getMoreLink() {
+		return moreLink;
+	}
+
+	public WebElement getCampaignLink() {
+		return campaignLink;
+	}
+
+	public WebElement getAdminImg() {
+		return adminImg;
+	}
+
+	public WebElement getSignoutLink() {
+		return signoutLink;
+	}
+
+	public WebElement getProductLink() {
+		return productLink;
+	}
+
+	public WebElement getOpportunitiesLink() {
+		return opportunitiesLink;
+	}
+
 	public WebElement getOrgLink() {
 		return orgLink;
 	}
@@ -45,16 +87,7 @@ public class HomePage
 	public WebElement getContactLink() {
 		return contactLink;
 	}
-
 	
-	public WebElement getProductLink() {
-		return productLink;
-	}
-
-	public void setProductLink(WebElement productLink) {
-		this.productLink = productLink;
-	}
-
 	public void navigateToCampaignPage(WebDriver driver)
 	{
 		Actions act=new Actions(driver);
