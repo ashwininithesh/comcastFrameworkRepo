@@ -36,8 +36,35 @@ public class HomePage
 	@FindBy(linkText = "Products")
 	private WebElement productLink;
 	
-
+	@FindBy(linkText = "Opportunities")
+	private WebElement opportunitiesLink;
 	
+     
+	
+	public WebElement getMoreLink() {
+		return moreLink;
+	}
+
+	public WebElement getCampaignLink() {
+		return campaignLink;
+	}
+
+	public WebElement getAdminImg() {
+		return adminImg;
+	}
+
+	public WebElement getSignoutLink() {
+		return signoutLink;
+	}
+
+	public WebElement getProductLink() {
+		return productLink;
+	}
+
+	public WebElement getOpportunitiesLink() {
+		return opportunitiesLink;
+	}
+
 	public WebElement getOrgLink() {
 		return orgLink;
 	}
