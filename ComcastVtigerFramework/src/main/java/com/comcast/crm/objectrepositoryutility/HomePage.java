@@ -43,10 +43,14 @@ public class HomePage
 	private WebElement LeadsLink;
 	
 	@FindBy(linkText = "Calendar")
-	private WebElement CalenderLink;
+	private WebElement Calender;
 	
      
 	
+
+	public WebElement getCalenderLink() {
+		return CalenderLink;
+	}
 
 	public WebElement getLeadsLink() {
 		return LeadsLink;
