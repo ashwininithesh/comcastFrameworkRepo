@@ -13,6 +13,13 @@ public class ProductsPage
 	
 	@FindBy(name="search")
 	private WebElement ele2;
+	
+	@FindBy(name="submit")
+	private WebElement searchNowBtn;
+
+	public WebElement getEle3() {
+		return searchNowBtn;
+	}
 
 	public WebElement getCreateProductImgBtn() {
 		return createProductImgBtn;
