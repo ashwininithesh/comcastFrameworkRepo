@@ -42,8 +42,7 @@ public class HomePage
 	@FindBy(linkText = "Leads")
 	private WebElement LeadsLink;
 	
-	@FindBy(linkText = "More")
-	private WebElement MoreLink;
+	
 	
      
 	
